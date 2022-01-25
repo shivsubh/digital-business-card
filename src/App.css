@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* position: absolute; */
+  width: 550px;
+  height: 868px;
+  left: 63px;
+  top: 45px;
+
+  background: #23252c;
+}
+
+.nav--container {
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+  /* background: url(../public/images/self-image.jpg);
+  border-radius: 10px 10px 0px 0px; */
+}
+
+.nav--image {
+  /* background: url(../public/images/self-image.jpg); */
+  /* position: absolute; */
+  border-radius: 10px 10px 0px 0px;
+}
+/* main {
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+
+  background: #1a1b21;
+} */
+/* .main--about {
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+
+  background: #1a1b21;
+} */
+.about {
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+  background: #1a1b21;
+}
+
+.interests {
+  /* position: absolute; */
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+}
+.name {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.skill {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #f3bf99;
+}
+
+.website {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.button--container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  background: #ffffff;
+  width: 8rem;
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.linkedin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  background: #5093e2;
+  width: 8rem;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.buttonText {
+  margin-left: 1rem;
+}
+
+/* .main--content {
+  position: absolute;
+  width: 247px;
+  height: 201px;
+  left: 152px;
+  top: 535px;
+} */
+
+.title1 {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 152px;
+  top: 535px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #f5f5f5;
+}
+
+.title1--content {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 152px;
+  top: 561px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+  color: #dcdcdc;
+}
+.title2 {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 152px;
+  top: 649px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #f5f5f5;
+}
+.title2--content {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 152px;
+  top: 675px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+  color: #dcdcdc;
+}
+
+/* p {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 152px;
+  top: 561px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+/* color: #dcdcdc; */
+/* } */
+
+footer {
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.social--logo1 {
+  position: absolute;
+  left: 34.36%;
+  right: 61.09%;
+  top: 89.75%;
+  bottom: 7.37%;
+
+  /* background: #918e9b; */
+}
+.social--logo2 {
+  position: absolute;
+  left: 43.27%;
+  right: 52.18%;
+  top: 89.75%;
+  bottom: 7.37%;
+
+  /* background: #918e9b; */
+}
+.social--logo3 {
+  position: absolute;
+  left: 52.18%;
+  right: 43.27%;
+  top: 89.75%;
+  bottom: 7.37%;
+
+  /* background: #918e9b; */
+}
+.social--logo4 {
+  position: absolute;
+  left: 61%;
+  right: 34.45%;
+  top: 89.8%;
+  bottom: 7.32%;
+
+  /* background: #918e9b; */
+}
